@@ -1,0 +1,18 @@
+github actions 
+
+
+
+
+Jenkins
+add repositories of jenkins in /apt
+sudo apt install jenkins
+sudo apt update 
+sudo apt-get install openjdk-11-jdk
+sudo systemctl start jenkins 
+sudo systemctl status jenkins 
+open port 8080 in ec2 
+open browser with ec2 public ip and port 
+goto var/lib/jenkins/
+sudo super su because of access 
+cat intial...
+copy password and paste in browser 
