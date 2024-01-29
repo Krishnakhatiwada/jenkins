@@ -1,13 +1,11 @@
-name: Hello World 
-
-on: 
-    push: 
+name: Hello 
+on:
+    push:
         branches:
             - main
-
 jobs:
     test:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-latest 
         steps: 
-            - name: Running Files 
-            run: echo "Hello World"
+            - name: Running files 
+              run: echo "hello World"
